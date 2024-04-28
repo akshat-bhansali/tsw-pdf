@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { Document, Page } from 'react-pdf';
 
 
 function PDFViewer({ url }) {
