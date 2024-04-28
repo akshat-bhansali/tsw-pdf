@@ -11,13 +11,16 @@
   "dependencies": {
     "firebase": "^10.11.1",
     "next": "14.2.3",
+    "pdf-viewer-reactjs": "^2.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-helmet": "^6.1.0",
-    "react-pdf": "^7.7.1"
+    "react-pdf": "^7.7.1",
+    "reactjs-pdf-reader": "^1.0.12"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pdf-viewer-reactjs": "^2.2.5",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-helmet": "^6.1.11",
