@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-// import PDFViewer from "../components/PDFViewer"
+import PDFViewer from "../components/PDFViewer"
 // import PDFViewer from 'pdf-viewer-reactjs'
 // import { PDFReader } from 'reactjs-pdf-reader';
 type Props = {
@@ -18,7 +18,7 @@ export const generateMetadata = ({ params }: Props): Metadata => {
 const page = ({ params }: Props) => {
   return (
     <div className="page">
-      {/* <PDFViewer url={"https://firebasestorage.googleapis.com/v0/b/zomato-clone-417913.appspot.com/o/"+params.fileName+"?alt=media"} /> */}
+      <PDFViewer url={"https://drive.google.com/file/d/1E7nX4OIG4NoskE6UM4LembtUYuuTd_02/view?usp=share_link"} />
       <div className="relative w-full h-screen">
         <iframe
           className="absolute inset-0 w-full h-full"
