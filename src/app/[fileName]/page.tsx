@@ -1,20 +1,20 @@
-'use client'
+
 import { Metadata } from "next";
 // import PDFViewer from "../components/PDFViewer" 
 // import PDFViewer from 'pdf-viewer-reactjs'
-import { PDFReader } from 'reactjs-pdf-reader';
+// import { PDFReader } from 'reactjs-pdf-reader';
 type Props ={
     params:{
         fileName:String
     }
 }
 
-// export const generateMetadata=({params}:Props):Metadata=>{
-//     return {
-//         title :`${params.fileName}`,
-//         description:`pdf`
-//     }
-// }
+export const generateMetadata=({params}:Props):Metadata=>{
+    return {
+        title :`${params.fileName}`,
+        description:`pdf`
+    }
+}
 
 const page = ({params}:Props) => {
     return (
