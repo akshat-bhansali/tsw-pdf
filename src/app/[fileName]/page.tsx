@@ -19,8 +19,9 @@ const page = ({ params }: Props) => {
   return (
     <div className="page">
       {/* <PDFViewer url={"https://firebasestorage.googleapis.com/v0/b/zomato-clone-417913.appspot.com/o/"+params.fileName+"?alt=media"} /> */}
+      <div className="relative w-full h-screen">
         <iframe
-          className=""
+          className="absolute inset-0 w-full h-full"
           src={
             "https://firebasestorage.googleapis.com/v0/b/zomato-clone-417913.appspot.com/o/" +
             params.fileName +
@@ -28,6 +29,7 @@ const page = ({ params }: Props) => {
           }
           title="description"
         ></iframe>
+      </div>
 
       {/* <PDFViewer
             document={{
